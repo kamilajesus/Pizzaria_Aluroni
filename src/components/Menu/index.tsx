@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 
 export default function Menu() {
   const rotas = [{
-    label: 'Inicio',
+    label: 'Início',
     to: '/'
   }, {
-    label: 'Cardapio',
+    label: 'Cardápio',
     to: '/cardapio'
   }, {
     label: 'Sobre',
@@ -26,6 +26,5 @@ export default function Menu() {
         ))}
       </ul>
     </nav>
-  
   );
 }

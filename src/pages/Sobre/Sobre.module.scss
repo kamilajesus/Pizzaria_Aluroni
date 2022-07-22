@@ -9,11 +9,12 @@
     font-size: 1.5rem;
     font-weight: bold;
     text-align: justify;
-p {
+    > p {
       font-family: 'Josefin Sans', sans-serif;
     }
   }
 }
+
 .imagens {
   display: flex;
   flex-wrap: wrap;
